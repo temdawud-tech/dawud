@@ -1,6 +1,8 @@
+
 h2{
     background-color: yellowgreen;
     color: whitesmoke;
+    font-size: 20px;
 }
 
 body {
@@ -9,10 +11,13 @@ justify-content: center;
 align-items: center;
 height: 100vh;
 margin: 0;
+background-color:var(--bg);
+padding: 48px;
+color:var(--text-dark);
 }
 .calculator {
     width: 320px;
-    background-color: #3b2e2e;
+    background-color:red;
     padding: 20px;
     border-radius:20px;
     box-shadow: 0px 5px 15px rgb(0,0, 3);
